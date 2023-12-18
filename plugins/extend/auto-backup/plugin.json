@@ -1,0 +1,31 @@
+{
+    "$schema": "../../../system/schema/extend.json",
+    "name": "Auto backup",
+    "description": "Automatically create (full) backup of website.",
+    "authors": [
+        {"name": "Lukáš Tesař", "url": "https://tlukas.eu"}
+    ],
+    "version": "1.0.0",
+    "environment": {
+        "system": "^8.0"
+    },
+    "actions": {
+        "config": "ConfigAction"
+    },
+    "config_defaults": {
+        "upload": true,
+        "images_user": true,
+        "images_articles": true,
+        "images_galleries": true,
+        "count": 7
+    },
+    "langs": {
+        "auto-backup": "lang"
+    },
+    "cron": {
+        "auto-backup": {
+            "interval": 86400,
+            "script": "cron/auto_backup.php"
+        }
+    }
+}
