@@ -30,3 +30,5 @@ Configuration
 Configure plugin in: 'Administration > Plugins > Auto backup'
 
 You can specify what should be backuped (uploaded files, avatars, article images, gallery images) and how long keep old backups.
+
+For uploading backups to GitHub repostiry You need to generate Personal Access Token (https://github.com/settings/personal-access-tokens).

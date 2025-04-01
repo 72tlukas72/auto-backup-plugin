@@ -5,7 +5,7 @@
     "authors": [
         {"name": "Lukáš Tesař", "url": "https://tlukas.eu"}
     ],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "environment": {
         "system": "^8.0"
     },
@@ -17,7 +17,11 @@
         "images_user": true,
         "images_articles": true,
         "images_galleries": true,
-        "count": 7
+        "count": 7,
+        "github": false,
+        "token": "",
+        "repoOwner": "",
+        "repoName": ""
     },
     "langs": {
         "auto-backup": "lang"
